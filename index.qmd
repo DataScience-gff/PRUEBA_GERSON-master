@@ -1,0 +1,70 @@
+---
+title: FWL
+subtitle: Factor de Forward Looking
+format: clean-revealjs
+execute: 
+  echo: true
+  output: true
+code-fold: false
+code-overflow: wrap
+html-math-method:
+  method: mathjax
+  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+author:
+  - name: Grupo Financiero Ficohsa 
+    affiliations: Data Science
+date: last-modified
+html: 
+  toc: true
+  code-fold: show
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Factor Forward Looking
+
+## Resumen FWL Tasa Vencidos
+
+Todo el script se trata de unificar los datos historicos de la cartera
+crediticia, hacer un tratamiento de los datos, eliminando valores nulos.
+La idea principal es obtener ratio de obligaciones en situación de
+default por mes, para lo cual se requiere: Segmentar las obligaciones
+por tipo de crédito (Consumo, Corporativo, Vivienda). Obtener un conteo
+de obligaciones vencidas por segmento (con dias de mora superior a 90
+dias). Obtener un conteo un conteo del total de obligaciones por
+segmento.
+
+$$
+Tasa~ Vencido = \frac{Total~Vencidas}{Total~Obligaciones}
+$$
+
+## Resumen FWL Tasa Vencidos
+
+::::: columns
+::: {.column style="font-size:15px"}
+Todo el script se trata de unificar los datos historicos de la cartera
+crediticia, hacer un tratamiento de los datos, eliminando valores nulos.
+La idea principal es obtener ratio de obligaciones en situación de
+default por mes, para lo cual se requiere: Segmentar las obligaciones
+por tipo de crédito (Consumo, Corporativo, Vivienda). Obtener un conteo
+de obligaciones vencidas por segmento (con dias de mora superior a 90
+dias). Obtener un conteo un conteo del total de obligaciones por
+segmento.
+
+$$
+Tasa~ Vencido = \frac{Total~Vencidas}{Total~Obligaciones}
+$$
+
+![](images/Captura de pantalla 2024-12-09 155007.png){width="100"}
+
+### Gerson
+
+#### Juan
+:::
+
+::: {.column style="font-size:15px"}
+:::
+:::::
+
+## 
